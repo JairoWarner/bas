@@ -2,7 +2,7 @@
 
 
 $servername = "localhost";
-$dbname = "ponggame";
+$dbname = "Bas";
 $username = "root";
 $password = "";
 
