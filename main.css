@@ -6,20 +6,20 @@ body {
 
 nav {
     overflow: hidden;
-    background-color: #d01528;
-    font-family: fantasy;
+    background-color: #e30613;
+
     padding: 14px 16px;
 }
 nav h2 {
     font-size: 1.3em;
     color: white;
     text-align: center;
-    font-family: fantasy;
+
 }
 nav a {
     float: left;
     font-size: 1.3em;
-    font-weight: bold;
+
     color: white;
     text-align: center;
     padding: 16px 18px;
@@ -33,14 +33,14 @@ nav .dropdown {
     overflow: hidden;
 }
 nav .dropdown .dropbtn {
-    font-size: 1.3em;
-    font-weight: bolder;
+    font-size: 1.2em;
+
     border: none;
     outline: none;
     color: white;
     padding: 16px 19px;
     background-color: inherit;
-    font-family: fantasy;
+
     margin: 0;
 }
 nav .dropdown-content {
@@ -60,8 +60,20 @@ nav .dropdown-content a {
     text-align: left;
 }
 nav .dropdown-content a:hover {
-    background-color: gray;
+
+
 }
 nav .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.login{
+    text-align: center;
+}
+
+.formCreate{
+    text-align: center;
+}
+
+
+

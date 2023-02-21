@@ -49,15 +49,15 @@ echo "Please enter some valid information!";
 <body>
 <div class="login">
     <form method="post">
+
         <div><h2>Sign up</h2></div>
         <label for="username">Username</label>
         <input id="username" type="text" name="username"><br><br>
         <label for="password">Password</label>
         <input id="password" type="password" name="password"><br><br>
-
         <input id="button" type="submit" value="Signup"><br><br>
-
         <a href="login.php">Click to Login</a><br><br>
+
     </form>
 </div>
 
