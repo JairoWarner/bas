@@ -1,6 +1,6 @@
 <?php
 
-include("conn.php");
+include("loginenzo/conn.php");
 include("header.php");
 
 

@@ -10,12 +10,14 @@ nav {
 
     padding: 14px 16px;
 }
+
 nav h2 {
     font-size: 1.3em;
     color: white;
     text-align: center;
 
 }
+
 nav a {
     float: left;
     font-size: 1.3em;
@@ -25,13 +27,16 @@ nav a {
     padding: 16px 18px;
     text-decoration: none;
 }
+
 nav a:hover, nav .dropdown:hover, nav .dropbtn {
     background-color: grey;
 }
+
 nav .dropdown {
     float: left;
     overflow: hidden;
 }
+
 nav .dropdown .dropbtn {
     font-size: 1.2em;
 
@@ -43,6 +48,7 @@ nav .dropdown .dropbtn {
 
     margin: 0;
 }
+
 nav .dropdown-content {
     display: none;
     position: absolute;
@@ -51,6 +57,7 @@ nav .dropdown-content {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
+
 nav .dropdown-content a {
     float: none;
     color: black;
@@ -59,21 +66,92 @@ nav .dropdown-content a {
     display: block;
     text-align: left;
 }
+
 nav .dropdown-content a:hover {
 
 
 }
+
 nav .dropdown:hover .dropdown-content {
     display: block;
 }
 
-.login{
+.login {
     text-align: center;
 }
 
-.formCreate{
-    text-align: center;
+.formCreate {
+    box-shadow: 10px 10px 50px rgb(0, 0, 0);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 700px;
+    padding: 10px;
+    background: white;
+    margin: 40px;
+
+
 }
+
+form label{
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+input {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    width: 300px;
+    margin: 10px;
+
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.formContent {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.formCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.submitButton input{
+    font-weight: bold;
+    font-size: 15px;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container {
+    text-decoration: none;
+}
+
+.flex_1 {
+    padding: 170px;
+    margin-left: 40px;
+    font-size: 30px;
+
+}
+
 
 
 

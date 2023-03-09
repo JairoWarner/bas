@@ -2,7 +2,7 @@
 <header>
     <nav>
         <div class="left">
-            <a href="loginenzo/index.php">Home</a>
+            <a href="index.php">Home</a>
 
 
         </div>
@@ -13,10 +13,10 @@
             </button>
             <div class="dropdown-content">
                 <a href="create_klant1.php">Create</a>
-                <a href="loginenzo/gizmo_bas.php">Read</a>
+                <a href="gizmo_bas.php">Read</a>
                 <a href="Zoeken_op_klant_lit_Bas.php">Zoeken op klantid</a>
-                <a href="loginenzo/Update_bas.php">Update</a>
-                <a href="loginenzo/Delete_bas.php">Delete</a>
+                <a href="Update_bas.php">Update</a>
+                <a href="Delete_bas.php">Delete</a>
             </div>
         </div>
 
