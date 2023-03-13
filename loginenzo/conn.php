@@ -16,7 +16,7 @@ try {
 }
 try {
     $con = mysqli_connect($servername, $username, $password, $dbname);
-//    echo "connectie gelukt";
+//w    echo "connectie gelukt";
 
 } catch (PDOException $e) {
     echo "Connectie mislukt: " . $e->getMessage();

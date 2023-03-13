@@ -28,29 +28,13 @@
                 <a href="Update_bas.php">Update</a>
                 <a href="Delete_bas.php">Delete</a>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
-
+        <div>
+            <a href="hoofd.php">afdeling hoofd</a>
+        </div>
+        <div>
+            <a href="toevoegen.php">toevoegen</a>
+        </div>
 
         <a href="../../garage/logout.php">Log Uit</a>
         <div class="naam"><h2>Boodschappenservice Bas Brengt Boodschappen</h2></div>
