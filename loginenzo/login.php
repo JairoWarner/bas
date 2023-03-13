@@ -49,14 +49,14 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../main.css">
 </head>
 <body>
+
 <div class="login">
     <div class="login-box">
         <form method="post">
             <div class="except"><h2>Login</h2></div>
-
             <label for="username">Username</label>
             <input id="username" type="text" name="username"><br><br>
             <label for="password">Password</label>
@@ -64,6 +64,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
             <input id="button" type="submit" value="Login"><br><br>
 
             <a href="signup.php">Click to Signup</a><br><br>
+
         </form>
     </div>
 </div>
